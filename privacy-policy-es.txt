@@ -196,6 +196,77 @@ Podemos recopilar y procesar los siguientes datos personales sensibles con su co
 Usted tiene derecho a retirar el consentimiento para el tratamiento de datos sensibles en cualquier momento.
 
 ================================================================================
+2.5 PERMISOS DE LA APLICACION MOVIL
+================================================================================
+
+Nuestra aplicacion movil requiere ciertos permisos del dispositivo para funcionar correctamente. A continuacion se presenta una lista completa de los permisos que podemos solicitar y como se utilizan:
+
+a) Permiso de Camara (android.permission.CAMERA)
+   - Proposito: Permitirle tomar fotos para su perfil, capturar imagenes para verificacion de identidad y compartir fotos en mensajes con otros usuarios.
+   - Uso de Datos: Las fotos tomadas con la camara se suben a nuestros servidores para visualizacion del perfil, verificacion de identidad o compartir mensajes.
+   - Almacenamiento: Las imagenes se almacenan de forma segura en nuestros servidores de acuerdo con nuestras politicas de retencion de datos.
+   - Comparticion con Terceros: Las fotos del perfil pueden ser visibles para otros usuarios. Las fotos de verificacion son procesadas por nuestros proveedores de servicios de verificacion de identidad.
+   - Control del Usuario: Puede revocar el permiso de camara en cualquier momento a traves de la configuracion de su dispositivo. Algunas funciones que requieren fotos no estaran disponibles sin este permiso.
+
+b) Permiso de Ubicacion (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Proposito: Mostrarle posibles coincidencias cerca de su ubicacion y habilitar funciones basadas en ubicacion.
+   - Uso de Datos: Los datos de ubicacion se utilizan para calcular distancias y sugerir usuarios cercanos.
+   - Almacenamiento: Los datos de ubicacion se almacenan en nuestros servidores y se actualizan cuando utiliza la aplicacion.
+   - Comparticion con Terceros: La ubicacion aproximada puede mostrarse a otros usuarios (nivel de ciudad/region). La ubicacion precisa no se comparte con otros usuarios.
+   - Control del Usuario: Puede desactivar los permisos de ubicacion en cualquier momento. La aplicacion funcionara con funciones limitadas sin acceso a la ubicacion.
+
+c) Permiso de Almacenamiento (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Proposito: Permitirle seleccionar y subir fotos desde la galeria de su dispositivo.
+   - Uso de Datos: Las fotos seleccionadas se suben a nuestros servidores para fines de perfil o mensajeria.
+   - Almacenamiento: No accedemos ni almacenamos ningun archivo mas alla de los que usted selecciona explicitamente para subir.
+   - Comparticion con Terceros: Solo las fotos que elija compartir se suben y son potencialmente visibles para otros usuarios.
+   - Control del Usuario: Puede revocar el permiso de almacenamiento en cualquier momento. La subida de fotos desde la galeria no estara disponible sin este permiso.
+
+d) Acceso a Internet (android.permission.INTERNET)
+   - Proposito: Necesario para que la aplicacion se comunique con nuestros servidores, cargue contenido y habilite la mensajeria.
+   - Uso de Datos: Todos los datos transmitidos por Internet estan cifrados usando TLS 1.3.
+   - Control del Usuario: Este permiso es esencial para la funcionalidad de la aplicacion y no puede desactivarse.
+
+e) Estado de Red (android.permission.ACCESS_NETWORK_STATE)
+   - Proposito: Verificar la conectividad a Internet y optimizar el uso de datos.
+   - Uso de Datos: Se utiliza solo para determinar si el dispositivo esta conectado a Internet.
+   - Control del Usuario: Este permiso es esencial para la funcionalidad de la aplicacion.
+
+f) Notificaciones Push (android.permission.POST_NOTIFICATIONS)
+   - Proposito: Enviarle notificaciones sobre nuevos mensajes, coincidencias y actualizaciones importantes.
+   - Uso de Datos: Los tokens de notificacion se almacenan para entregar notificaciones push.
+   - Comparticion con Terceros: Utilizamos Firebase Cloud Messaging (Google) para entregar notificaciones.
+   - Control del Usuario: Puede desactivar las notificaciones en cualquier momento a traves de la configuracion de su dispositivo o preferencias de la aplicacion.
+
+g) Vibracion (android.permission.VIBRATE)
+   - Proposito: Proporcionar retroalimentacion haptica para notificaciones e interacciones.
+   - Uso de Datos: No se recopilan datos a traves de este permiso.
+   - Control del Usuario: Puede controlar la configuracion de vibracion a traves de la configuracion de su dispositivo.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Proposito: Asegurar que las notificaciones se entreguen incluso cuando el dispositivo esta en modo de suspension.
+   - Uso de Datos: No se recopilan datos a traves de este permiso.
+
+i) Autenticacion Biometrica (android.permission.USE_BIOMETRIC)
+   - Proposito: Proporcionar inicio de sesion seguro utilizando huella dactilar o reconocimiento facial.
+   - Uso de Datos: Los datos biometricos se procesan localmente en su dispositivo y nunca se transmiten a nuestros servidores.
+   - Control del Usuario: Puede optar por usar autenticacion con contrasena en su lugar.
+
+COMO GESTIONAR PERMISOS:
+
+Usuarios de Android:
+1. Vaya a Configuracion > Aplicaciones > GreenGo Chat > Permisos
+2. Active o desactive permisos individuales
+3. Algunas funciones pueden estar limitadas cuando los permisos estan desactivados
+
+Usuarios de iOS:
+1. Vaya a Configuracion > GreenGo Chat
+2. Active o desactive permisos individuales
+3. Algunas funciones pueden estar limitadas cuando los permisos estan desactivados
+
+Solo solicitamos permisos necesarios para la funcionalidad principal de la aplicacion o funciones opcionales que elija utilizar. No accedemos a ningun dato mas alla de lo necesario para los propositos declarados.
+
+================================================================================
 3. COMO RECOPILAMOS INFORMACION
 ================================================================================
 

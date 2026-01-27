@@ -196,6 +196,77 @@ Podemos coletar e processar os seguintes dados pessoais sensiveis com seu consen
 Voce tem o direito de revogar o consentimento para o tratamento de dados sensiveis a qualquer momento.
 
 ================================================================================
+2.5 PERMISSOES DO APLICATIVO MOVEL
+================================================================================
+
+Nosso aplicativo movel requer certas permissoes do dispositivo para funcionar corretamente. Abaixo esta uma lista abrangente das permissoes que podemos solicitar e como elas sao usadas:
+
+a) Permissao de Camera (android.permission.CAMERA)
+   - Proposito: Permitir que voce tire fotos para seu perfil, capture imagens para verificacao de identidade e compartilhe fotos em mensagens com outros usuarios.
+   - Uso de Dados: Fotos tiradas usando a camera sao enviadas para nossos servidores para exibicao do perfil, verificacao de identidade ou compartilhamento de mensagens.
+   - Armazenamento: As imagens sao armazenadas com seguranca em nossos servidores de acordo com nossas politicas de retencao de dados.
+   - Compartilhamento com Terceiros: Fotos do perfil podem ser visiveis para outros usuarios. Fotos de verificacao sao processadas por nossos provedores de servicos de verificacao de identidade.
+   - Controle do Usuario: Voce pode revogar a permissao de camera a qualquer momento atraves das configuracoes do seu dispositivo. Alguns recursos que requerem fotos estarao indisponiveis sem esta permissao.
+
+b) Permissao de Localizacao (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Proposito: Mostrar potenciais correspondencias perto de sua localizacao e habilitar recursos baseados em localizacao.
+   - Uso de Dados: Dados de localizacao sao usados para calcular distancias e sugerir usuarios proximos.
+   - Armazenamento: Dados de localizacao sao armazenados em nossos servidores e atualizados quando voce usa o aplicativo.
+   - Compartilhamento com Terceiros: Localizacao aproximada pode ser mostrada a outros usuarios (nivel de cidade/regiao). Localizacao precisa nao e compartilhada com outros usuarios.
+   - Controle do Usuario: Voce pode desativar as permissoes de localizacao a qualquer momento. O aplicativo funcionara com recursos limitados sem acesso a localizacao.
+
+c) Permissao de Armazenamento (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Proposito: Permitir que voce selecione e envie fotos da galeria do seu dispositivo.
+   - Uso de Dados: Fotos selecionadas sao enviadas para nossos servidores para fins de perfil ou mensagens.
+   - Armazenamento: Nao acessamos ou armazenamos quaisquer arquivos alem daqueles que voce explicitamente seleciona para enviar.
+   - Compartilhamento com Terceiros: Apenas fotos que voce escolhe compartilhar sao enviadas e potencialmente visiveis para outros usuarios.
+   - Controle do Usuario: Voce pode revogar a permissao de armazenamento a qualquer momento. O envio de fotos da galeria estara indisponivel sem esta permissao.
+
+d) Acesso a Internet (android.permission.INTERNET)
+   - Proposito: Necessario para o aplicativo se comunicar com nossos servidores, carregar conteudo e habilitar mensagens.
+   - Uso de Dados: Todos os dados transmitidos pela internet sao criptografados usando TLS 1.3.
+   - Controle do Usuario: Esta permissao e essencial para a funcionalidade do aplicativo e nao pode ser desabilitada.
+
+e) Estado da Rede (android.permission.ACCESS_NETWORK_STATE)
+   - Proposito: Verificar conectividade com a internet e otimizar o uso de dados.
+   - Uso de Dados: Usado apenas para determinar se o dispositivo esta conectado a internet.
+   - Controle do Usuario: Esta permissao e essencial para a funcionalidade do aplicativo.
+
+f) Notificacoes Push (android.permission.POST_NOTIFICATIONS)
+   - Proposito: Enviar notificacoes sobre novas mensagens, correspondencias e atualizacoes importantes.
+   - Uso de Dados: Tokens de notificacao sao armazenados para entregar notificacoes push.
+   - Compartilhamento com Terceiros: Usamos Firebase Cloud Messaging (Google) para entregar notificacoes.
+   - Controle do Usuario: Voce pode desativar notificacoes a qualquer momento atraves das configuracoes do seu dispositivo ou preferencias no aplicativo.
+
+g) Vibracao (android.permission.VIBRATE)
+   - Proposito: Fornecer feedback haptico para notificacoes e interacoes.
+   - Uso de Dados: Nenhum dado e coletado atraves desta permissao.
+   - Controle do Usuario: Voce pode controlar as configuracoes de vibracao atraves das configuracoes do seu dispositivo.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Proposito: Garantir que notificacoes sejam entregues mesmo quando o dispositivo esta em modo de suspensao.
+   - Uso de Dados: Nenhum dado e coletado atraves desta permissao.
+
+i) Autenticacao Biometrica (android.permission.USE_BIOMETRIC)
+   - Proposito: Fornecer login seguro usando impressao digital ou reconhecimento facial.
+   - Uso de Dados: Dados biometricos sao processados localmente no seu dispositivo e nunca transmitidos para nossos servidores.
+   - Controle do Usuario: Voce pode optar por usar autenticacao por senha.
+
+COMO GERENCIAR PERMISSOES:
+
+Usuarios Android:
+1. Va para Configuracoes > Aplicativos > GreenGo Chat > Permissoes
+2. Ative ou desative permissoes individuais
+3. Alguns recursos podem ser limitados quando permissoes sao desabilitadas
+
+Usuarios iOS:
+1. Va para Configuracoes > GreenGo Chat
+2. Ative ou desative permissoes individuais
+3. Alguns recursos podem ser limitados quando permissoes sao desabilitadas
+
+Solicitamos apenas permissoes necessarias para a funcionalidade principal do aplicativo ou recursos opcionais que voce escolhe usar. Nao acessamos nenhum dado alem do necessario para os propositos declarados.
+
+================================================================================
 3. COMO COLETAMOS INFORMACOES
 ================================================================================
 

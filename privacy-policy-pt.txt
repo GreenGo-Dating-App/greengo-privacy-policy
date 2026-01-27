@@ -196,6 +196,77 @@ Podemos recolher e tratar os seguintes dados pessoais sensiveis com o seu consen
 Tem o direito de retirar o consentimento para o tratamento de dados sensiveis a qualquer momento.
 
 ================================================================================
+2.5 PERMISSOES DA APLICACAO MOVEL
+================================================================================
+
+A nossa aplicacao movel requer certas permissoes do dispositivo para funcionar corretamente. Abaixo esta uma lista abrangente das permissoes que podemos solicitar e como sao utilizadas:
+
+a) Permissao de Camera (android.permission.CAMERA)
+   - Proposito: Permitir que tire fotografias para o seu perfil, capture imagens para verificacao de identidade e partilhe fotos em mensagens com outros utilizadores.
+   - Utilizacao de Dados: As fotografias tiradas com a camera sao carregadas para os nossos servidores para exibicao do perfil, verificacao de identidade ou partilha de mensagens.
+   - Armazenamento: As imagens sao armazenadas de forma segura nos nossos servidores de acordo com as nossas politicas de retencao de dados.
+   - Partilha com Terceiros: As fotos do perfil podem ser visiveis para outros utilizadores. As fotos de verificacao sao processadas pelos nossos fornecedores de servicos de verificacao de identidade.
+   - Controlo do Utilizador: Pode revogar a permissao de camera a qualquer momento atraves das definicoes do seu dispositivo. Algumas funcionalidades que requerem fotos ficarao indisponiveis sem esta permissao.
+
+b) Permissao de Localizacao (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Proposito: Mostrar-lhe potenciais correspondencias perto da sua localizacao e ativar funcionalidades baseadas em localizacao.
+   - Utilizacao de Dados: Os dados de localizacao sao utilizados para calcular distancias e sugerir utilizadores proximos.
+   - Armazenamento: Os dados de localizacao sao armazenados nos nossos servidores e atualizados quando utiliza a aplicacao.
+   - Partilha com Terceiros: A localizacao aproximada pode ser mostrada a outros utilizadores (nivel de cidade/regiao). A localizacao precisa nao e partilhada com outros utilizadores.
+   - Controlo do Utilizador: Pode desativar as permissoes de localizacao a qualquer momento. A aplicacao funcionara com funcionalidades limitadas sem acesso a localizacao.
+
+c) Permissao de Armazenamento (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Proposito: Permitir que selecione e carregue fotografias da galeria do seu dispositivo.
+   - Utilizacao de Dados: As fotografias selecionadas sao carregadas para os nossos servidores para fins de perfil ou mensagens.
+   - Armazenamento: Nao acedemos nem armazenamos quaisquer ficheiros alem daqueles que seleciona explicitamente para carregar.
+   - Partilha com Terceiros: Apenas as fotos que escolhe partilhar sao carregadas e potencialmente visiveis para outros utilizadores.
+   - Controlo do Utilizador: Pode revogar a permissao de armazenamento a qualquer momento. O carregamento de fotos da galeria ficara indisponivel sem esta permissao.
+
+d) Acesso a Internet (android.permission.INTERNET)
+   - Proposito: Necessario para a aplicacao comunicar com os nossos servidores, carregar conteudo e ativar mensagens.
+   - Utilizacao de Dados: Todos os dados transmitidos pela Internet sao encriptados utilizando TLS 1.3.
+   - Controlo do Utilizador: Esta permissao e essencial para a funcionalidade da aplicacao e nao pode ser desativada.
+
+e) Estado da Rede (android.permission.ACCESS_NETWORK_STATE)
+   - Proposito: Verificar a conectividade a Internet e otimizar a utilizacao de dados.
+   - Utilizacao de Dados: Utilizado apenas para determinar se o dispositivo esta ligado a Internet.
+   - Controlo do Utilizador: Esta permissao e essencial para a funcionalidade da aplicacao.
+
+f) Notificacoes Push (android.permission.POST_NOTIFICATIONS)
+   - Proposito: Enviar-lhe notificacoes sobre novas mensagens, correspondencias e atualizacoes importantes.
+   - Utilizacao de Dados: Os tokens de notificacao sao armazenados para entregar notificacoes push.
+   - Partilha com Terceiros: Utilizamos o Firebase Cloud Messaging (Google) para entregar notificacoes.
+   - Controlo do Utilizador: Pode desativar as notificacoes a qualquer momento atraves das definicoes do seu dispositivo ou preferencias na aplicacao.
+
+g) Vibracao (android.permission.VIBRATE)
+   - Proposito: Fornecer feedback haptico para notificacoes e interacoes.
+   - Utilizacao de Dados: Nenhum dado e recolhido atraves desta permissao.
+   - Controlo do Utilizador: Pode controlar as definicoes de vibracao atraves das definicoes do seu dispositivo.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Proposito: Garantir que as notificacoes sao entregues mesmo quando o dispositivo esta em modo de suspensao.
+   - Utilizacao de Dados: Nenhum dado e recolhido atraves desta permissao.
+
+i) Autenticacao Biometrica (android.permission.USE_BIOMETRIC)
+   - Proposito: Fornecer inicio de sessao seguro utilizando impressao digital ou reconhecimento facial.
+   - Utilizacao de Dados: Os dados biometricos sao processados localmente no seu dispositivo e nunca sao transmitidos para os nossos servidores.
+   - Controlo do Utilizador: Pode optar por utilizar autenticacao por palavra-passe.
+
+COMO GERIR PERMISSOES:
+
+Utilizadores Android:
+1. Va a Definicoes > Aplicacoes > GreenGo Chat > Permissoes
+2. Ative ou desative permissoes individuais
+3. Algumas funcionalidades podem ser limitadas quando as permissoes estao desativadas
+
+Utilizadores iOS:
+1. Va a Definicoes > GreenGo Chat
+2. Ative ou desative permissoes individuais
+3. Algumas funcionalidades podem ser limitadas quando as permissoes estao desativadas
+
+Solicitamos apenas permissoes necessarias para a funcionalidade principal da aplicacao ou funcionalidades opcionais que escolha utilizar. Nao acedemos a quaisquer dados alem do necessario para os propositos declarados.
+
+================================================================================
 3. COMO RECOLHEMOS INFORMACOES
 ================================================================================
 

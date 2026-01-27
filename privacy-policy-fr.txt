@@ -196,6 +196,77 @@ Nous pouvons collecter et traiter les donnees personnelles sensibles suivantes a
 Vous avez le droit de retirer votre consentement au traitement des donnees sensibles a tout moment.
 
 ================================================================================
+2.5 AUTORISATIONS DE L'APPLICATION MOBILE
+================================================================================
+
+Notre application mobile necessite certaines autorisations de l'appareil pour fonctionner correctement. Voici une liste complete des autorisations que nous pouvons demander et comment elles sont utilisees:
+
+a) Autorisation Camera (android.permission.CAMERA)
+   - Objectif: Vous permettre de prendre des photos pour votre profil, de capturer des images pour la verification d'identite et de partager des photos dans les messages avec d'autres utilisateurs.
+   - Utilisation des Donnees: Les photos prises avec la camera sont telechargees sur nos serveurs pour l'affichage du profil, la verification d'identite ou le partage de messages.
+   - Stockage: Les images sont stockees de maniere securisee sur nos serveurs conformement a nos politiques de conservation des donnees.
+   - Partage avec des Tiers: Les photos de profil peuvent etre visibles par d'autres utilisateurs. Les photos de verification sont traitees par nos fournisseurs de services de verification d'identite.
+   - Controle de l'Utilisateur: Vous pouvez revoquer l'autorisation camera a tout moment via les parametres de votre appareil. Certaines fonctionnalites necessitant des photos seront indisponibles sans cette autorisation.
+
+b) Autorisation de Localisation (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Objectif: Vous montrer des correspondances potentielles pres de votre emplacement et activer les fonctionnalites basees sur la localisation.
+   - Utilisation des Donnees: Les donnees de localisation sont utilisees pour calculer les distances et suggerer des utilisateurs a proximite.
+   - Stockage: Les donnees de localisation sont stockees sur nos serveurs et mises a jour lorsque vous utilisez l'application.
+   - Partage avec des Tiers: La localisation approximative peut etre affichee aux autres utilisateurs (niveau ville/region). La localisation precise n'est pas partagee avec les autres utilisateurs.
+   - Controle de l'Utilisateur: Vous pouvez desactiver les autorisations de localisation a tout moment. L'application fonctionnera avec des fonctionnalites limitees sans acces a la localisation.
+
+c) Autorisation de Stockage (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Objectif: Vous permettre de selectionner et de telecharger des photos depuis la galerie de votre appareil.
+   - Utilisation des Donnees: Les photos selectionnees sont telechargees sur nos serveurs a des fins de profil ou de messagerie.
+   - Stockage: Nous n'accdons ni ne stockons aucun fichier autre que ceux que vous selectionnez explicitement pour le telechargement.
+   - Partage avec des Tiers: Seules les photos que vous choisissez de partager sont telechargees et potentiellement visibles par d'autres utilisateurs.
+   - Controle de l'Utilisateur: Vous pouvez revoquer l'autorisation de stockage a tout moment. Le telechargement de photos depuis la galerie sera indisponible sans cette autorisation.
+
+d) Acces Internet (android.permission.INTERNET)
+   - Objectif: Necessaire pour que l'application communique avec nos serveurs, charge le contenu et active la messagerie.
+   - Utilisation des Donnees: Toutes les donnees transmises sur Internet sont chiffrees en utilisant TLS 1.3.
+   - Controle de l'Utilisateur: Cette autorisation est essentielle au fonctionnement de l'application et ne peut pas etre desactivee.
+
+e) Etat du Reseau (android.permission.ACCESS_NETWORK_STATE)
+   - Objectif: Verifier la connectivite Internet et optimiser l'utilisation des donnees.
+   - Utilisation des Donnees: Utilise uniquement pour determiner si l'appareil est connecte a Internet.
+   - Controle de l'Utilisateur: Cette autorisation est essentielle au fonctionnement de l'application.
+
+f) Notifications Push (android.permission.POST_NOTIFICATIONS)
+   - Objectif: Vous envoyer des notifications concernant les nouveaux messages, les correspondances et les mises a jour importantes.
+   - Utilisation des Donnees: Les jetons de notification sont stockes pour delivrer les notifications push.
+   - Partage avec des Tiers: Nous utilisons Firebase Cloud Messaging (Google) pour delivrer les notifications.
+   - Controle de l'Utilisateur: Vous pouvez desactiver les notifications a tout moment via les parametres de votre appareil ou les preferences de l'application.
+
+g) Vibration (android.permission.VIBRATE)
+   - Objectif: Fournir un retour haptique pour les notifications et les interactions.
+   - Utilisation des Donnees: Aucune donnee n'est collectee via cette autorisation.
+   - Controle de l'Utilisateur: Vous pouvez controler les parametres de vibration via les parametres de votre appareil.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Objectif: S'assurer que les notifications sont delivrees meme lorsque l'appareil est en mode veille.
+   - Utilisation des Donnees: Aucune donnee n'est collectee via cette autorisation.
+
+i) Authentification Biometrique (android.permission.USE_BIOMETRIC)
+   - Objectif: Fournir une connexion securisee par empreinte digitale ou reconnaissance faciale.
+   - Utilisation des Donnees: Les donnees biometriques sont traitees localement sur votre appareil et ne sont jamais transmises a nos serveurs.
+   - Controle de l'Utilisateur: Vous pouvez choisir d'utiliser l'authentification par mot de passe a la place.
+
+COMMENT GERER LES AUTORISATIONS:
+
+Utilisateurs Android:
+1. Allez dans Parametres > Applications > GreenGo Chat > Autorisations
+2. Activez ou desactivez les autorisations individuelles
+3. Certaines fonctionnalites peuvent etre limitees lorsque les autorisations sont desactivees
+
+Utilisateurs iOS:
+1. Allez dans Reglages > GreenGo Chat
+2. Activez ou desactivez les autorisations individuelles
+3. Certaines fonctionnalites peuvent etre limitees lorsque les autorisations sont desactivees
+
+Nous ne demandons que les autorisations necessaires au fonctionnement de base de l'application ou aux fonctionnalites optionnelles que vous choisissez d'utiliser. Nous n'accdons a aucune donnee au-dela de ce qui est necessaire pour les objectifs declares.
+
+================================================================================
 3. COMMENT NOUS COLLECTONS LES INFORMATIONS
 ================================================================================
 

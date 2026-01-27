@@ -196,6 +196,77 @@ Wir koennen die folgenden sensiblen personenbezogenen Daten mit Ihrer ausdrueckl
 Sie haben das Recht, Ihre Einwilligung zur Verarbeitung sensibler Daten jederzeit zu widerrufen.
 
 ================================================================================
+2.5 BERECHTIGUNGEN DER MOBILEN ANWENDUNG
+================================================================================
+
+Unsere mobile Anwendung benoetigt bestimmte Geraeteberechtigungen, um ordnungsgemaess zu funktionieren. Nachfolgend finden Sie eine umfassende Liste der Berechtigungen, die wir anfordern koennen, und wie sie verwendet werden:
+
+a) Kameraberechtigung (android.permission.CAMERA)
+   - Zweck: Ihnen zu ermoeglichen, Fotos fuer Ihr Profil aufzunehmen, Bilder zur Identitaetsueberpruefung zu erfassen und Fotos in Nachrichten mit anderen Nutzern zu teilen.
+   - Datennutzung: Mit der Kamera aufgenommene Fotos werden auf unsere Server hochgeladen zur Profilanzeige, Identitaetsueberpruefung oder zum Teilen von Nachrichten.
+   - Speicherung: Bilder werden sicher auf unseren Servern gemaess unserer Datenspeicherungsrichtlinien gespeichert.
+   - Weitergabe an Dritte: Profilfotos koennen fuer andere Nutzer sichtbar sein. Verifizierungsfotos werden von unseren Dienstleistern fuer Identitaetsueberpruefung verarbeitet.
+   - Nutzerkontrolle: Sie koennen die Kameraberechtigung jederzeit ueber Ihre Geraeteeinstellungen widerrufen. Einige Funktionen, die Fotos erfordern, sind ohne diese Berechtigung nicht verfuegbar.
+
+b) Standortberechtigung (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Zweck: Ihnen potenzielle Uebereinstimmungen in Ihrer Naehe zu zeigen und standortbasierte Funktionen zu aktivieren.
+   - Datennutzung: Standortdaten werden verwendet, um Entfernungen zu berechnen und Nutzer in der Naehe vorzuschlagen.
+   - Speicherung: Standortdaten werden auf unseren Servern gespeichert und aktualisiert, wenn Sie die App nutzen.
+   - Weitergabe an Dritte: Der ungefaehre Standort kann anderen Nutzern angezeigt werden (Stadt-/Regionsebene). Der genaue Standort wird nicht mit anderen Nutzern geteilt.
+   - Nutzerkontrolle: Sie koennen Standortberechtigungen jederzeit deaktivieren. Die App funktioniert mit eingeschraenkten Funktionen ohne Standortzugriff.
+
+c) Speicherberechtigung (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Zweck: Ihnen zu ermoeglichen, Fotos aus Ihrer Geraetegalerie auszuwaehlen und hochzuladen.
+   - Datennutzung: Ausgewaehlte Fotos werden auf unsere Server fuer Profil- oder Nachrichtenzwecke hochgeladen.
+   - Speicherung: Wir greifen auf keine anderen Dateien zu und speichern keine anderen Dateien als die, die Sie ausdruecklich zum Hochladen auswaehlen.
+   - Weitergabe an Dritte: Nur Fotos, die Sie zum Teilen auswaehlen, werden hochgeladen und sind potenziell fuer andere Nutzer sichtbar.
+   - Nutzerkontrolle: Sie koennen die Speicherberechtigung jederzeit widerrufen. Das Hochladen von Fotos aus der Galerie ist ohne diese Berechtigung nicht verfuegbar.
+
+d) Internetzugang (android.permission.INTERNET)
+   - Zweck: Erforderlich, damit die App mit unseren Servern kommunizieren, Inhalte laden und Nachrichten ermoeglichen kann.
+   - Datennutzung: Alle ueber das Internet uebertragenen Daten werden mit TLS 1.3 verschluesselt.
+   - Nutzerkontrolle: Diese Berechtigung ist fuer die App-Funktionalitaet unerlaaesslich und kann nicht deaktiviert werden.
+
+e) Netzwerkstatus (android.permission.ACCESS_NETWORK_STATE)
+   - Zweck: Internetverbindung pruefen und Datennutzung optimieren.
+   - Datennutzung: Wird nur verwendet, um festzustellen, ob das Geraet mit dem Internet verbunden ist.
+   - Nutzerkontrolle: Diese Berechtigung ist fuer die App-Funktionalitaet unerlaaesslich.
+
+f) Push-Benachrichtigungen (android.permission.POST_NOTIFICATIONS)
+   - Zweck: Ihnen Benachrichtigungen ueber neue Nachrichten, Uebereinstimmungen und wichtige Updates zu senden.
+   - Datennutzung: Benachrichtigungstoken werden gespeichert, um Push-Benachrichtigungen zu uebermitteln.
+   - Weitergabe an Dritte: Wir verwenden Firebase Cloud Messaging (Google) zur Uebermittlung von Benachrichtigungen.
+   - Nutzerkontrolle: Sie koennen Benachrichtigungen jederzeit ueber Ihre Geraeteeinstellungen oder In-App-Einstellungen deaktivieren.
+
+g) Vibration (android.permission.VIBRATE)
+   - Zweck: Haptisches Feedback fuer Benachrichtigungen und Interaktionen bereitzustellen.
+   - Datennutzung: Ueber diese Berechtigung werden keine Daten erfasst.
+   - Nutzerkontrolle: Sie koennen die Vibrationseinstellungen ueber Ihre Geraeteeinstellungen steuern.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Zweck: Sicherstellen, dass Benachrichtigungen auch dann zugestellt werden, wenn sich das Geraet im Ruhemodus befindet.
+   - Datennutzung: Ueber diese Berechtigung werden keine Daten erfasst.
+
+i) Biometrische Authentifizierung (android.permission.USE_BIOMETRIC)
+   - Zweck: Sichere Anmeldung per Fingerabdruck oder Gesichtserkennung bereitzustellen.
+   - Datennutzung: Biometrische Daten werden lokal auf Ihrem Geraet verarbeitet und niemals an unsere Server uebertragen.
+   - Nutzerkontrolle: Sie koennen stattdessen die Passwort-Authentifizierung waehlen.
+
+BERECHTIGUNGEN VERWALTEN:
+
+Android-Nutzer:
+1. Gehen Sie zu Einstellungen > Apps > GreenGo Chat > Berechtigungen
+2. Aktivieren oder deaktivieren Sie einzelne Berechtigungen
+3. Einige Funktionen koennen eingeschraenkt sein, wenn Berechtigungen deaktiviert sind
+
+iOS-Nutzer:
+1. Gehen Sie zu Einstellungen > GreenGo Chat
+2. Aktivieren oder deaktivieren Sie einzelne Berechtigungen
+3. Einige Funktionen koennen eingeschraenkt sein, wenn Berechtigungen deaktiviert sind
+
+Wir fordern nur Berechtigungen an, die fuer die Kernfunktionalitaet der App oder optionale Funktionen erforderlich sind, die Sie nutzen moechten. Wir greifen auf keine Daten zu, die ueber das fuer die angegebenen Zwecke Notwendige hinausgehen.
+
+================================================================================
 3. WIE WIR INFORMATIONEN ERFASSEN
 ================================================================================
 

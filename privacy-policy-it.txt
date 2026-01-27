@@ -196,6 +196,77 @@ Potremmo raccogliere e trattare i seguenti dati personali sensibili con il vostr
 Avete il diritto di revocare il consenso al trattamento dei dati sensibili in qualsiasi momento.
 
 ================================================================================
+2.5 AUTORIZZAZIONI DELL'APPLICAZIONE MOBILE
+================================================================================
+
+La nostra applicazione mobile richiede determinate autorizzazioni del dispositivo per funzionare correttamente. Di seguito e riportato un elenco completo delle autorizzazioni che potremmo richiedere e come vengono utilizzate:
+
+a) Autorizzazione Fotocamera (android.permission.CAMERA)
+   - Scopo: Consentirvi di scattare foto per il vostro profilo, acquisire immagini per la verifica dell'identita e condividere foto nei messaggi con altri utenti.
+   - Utilizzo dei Dati: Le foto scattate con la fotocamera vengono caricate sui nostri server per la visualizzazione del profilo, la verifica dell'identita o la condivisione dei messaggi.
+   - Archiviazione: Le immagini sono archiviate in modo sicuro sui nostri server in conformita con le nostre politiche di conservazione dei dati.
+   - Condivisione con Terze Parti: Le foto del profilo possono essere visibili ad altri utenti. Le foto di verifica sono elaborate dai nostri fornitori di servizi di verifica dell'identita.
+   - Controllo dell'Utente: Potete revocare l'autorizzazione della fotocamera in qualsiasi momento tramite le impostazioni del dispositivo. Alcune funzionalita che richiedono foto non saranno disponibili senza questa autorizzazione.
+
+b) Autorizzazione Posizione (android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION)
+   - Scopo: Mostrarvi potenziali corrispondenze vicino alla vostra posizione e abilitare funzionalita basate sulla posizione.
+   - Utilizzo dei Dati: I dati sulla posizione vengono utilizzati per calcolare le distanze e suggerire utenti nelle vicinanze.
+   - Archiviazione: I dati sulla posizione sono archiviati sui nostri server e aggiornati quando utilizzate l'app.
+   - Condivisione con Terze Parti: La posizione approssimativa puo essere mostrata ad altri utenti (livello citta/regione). La posizione precisa non viene condivisa con altri utenti.
+   - Controllo dell'Utente: Potete disabilitare le autorizzazioni sulla posizione in qualsiasi momento. L'app funzionera con funzionalita limitate senza accesso alla posizione.
+
+c) Autorizzazione Archiviazione (android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE)
+   - Scopo: Consentirvi di selezionare e caricare foto dalla galleria del vostro dispositivo.
+   - Utilizzo dei Dati: Le foto selezionate vengono caricate sui nostri server per scopi di profilo o messaggistica.
+   - Archiviazione: Non accediamo ne archiviamo alcun file diverso da quelli che selezionate esplicitamente per il caricamento.
+   - Condivisione con Terze Parti: Solo le foto che scegliete di condividere vengono caricate e sono potenzialmente visibili ad altri utenti.
+   - Controllo dell'Utente: Potete revocare l'autorizzazione di archiviazione in qualsiasi momento. Il caricamento di foto dalla galleria non sara disponibile senza questa autorizzazione.
+
+d) Accesso a Internet (android.permission.INTERNET)
+   - Scopo: Necessario affinche l'app comunichi con i nostri server, carichi contenuti e abiliti la messaggistica.
+   - Utilizzo dei Dati: Tutti i dati trasmessi su Internet sono crittografati utilizzando TLS 1.3.
+   - Controllo dell'Utente: Questa autorizzazione e essenziale per la funzionalita dell'app e non puo essere disabilitata.
+
+e) Stato della Rete (android.permission.ACCESS_NETWORK_STATE)
+   - Scopo: Verificare la connettivita Internet e ottimizzare l'utilizzo dei dati.
+   - Utilizzo dei Dati: Utilizzato solo per determinare se il dispositivo e connesso a Internet.
+   - Controllo dell'Utente: Questa autorizzazione e essenziale per la funzionalita dell'app.
+
+f) Notifiche Push (android.permission.POST_NOTIFICATIONS)
+   - Scopo: Inviarvi notifiche su nuovi messaggi, corrispondenze e aggiornamenti importanti.
+   - Utilizzo dei Dati: I token di notifica sono archiviati per inviare notifiche push.
+   - Condivisione con Terze Parti: Utilizziamo Firebase Cloud Messaging (Google) per inviare notifiche.
+   - Controllo dell'Utente: Potete disabilitare le notifiche in qualsiasi momento tramite le impostazioni del dispositivo o le preferenze dell'app.
+
+g) Vibrazione (android.permission.VIBRATE)
+   - Scopo: Fornire feedback aptico per notifiche e interazioni.
+   - Utilizzo dei Dati: Nessun dato viene raccolto tramite questa autorizzazione.
+   - Controllo dell'Utente: Potete controllare le impostazioni di vibrazione tramite le impostazioni del dispositivo.
+
+h) Wake Lock (android.permission.WAKE_LOCK)
+   - Scopo: Garantire che le notifiche vengano consegnate anche quando il dispositivo e in modalita sospensione.
+   - Utilizzo dei Dati: Nessun dato viene raccolto tramite questa autorizzazione.
+
+i) Autenticazione Biometrica (android.permission.USE_BIOMETRIC)
+   - Scopo: Fornire un accesso sicuro tramite impronta digitale o riconoscimento facciale.
+   - Utilizzo dei Dati: I dati biometrici vengono elaborati localmente sul vostro dispositivo e non vengono mai trasmessi ai nostri server.
+   - Controllo dell'Utente: Potete scegliere di utilizzare l'autenticazione tramite password.
+
+COME GESTIRE LE AUTORIZZAZIONI:
+
+Utenti Android:
+1. Andate su Impostazioni > App > GreenGo Chat > Autorizzazioni
+2. Attivate o disattivate le singole autorizzazioni
+3. Alcune funzionalita potrebbero essere limitate quando le autorizzazioni sono disabilitate
+
+Utenti iOS:
+1. Andate su Impostazioni > GreenGo Chat
+2. Attivate o disattivate le singole autorizzazioni
+3. Alcune funzionalita potrebbero essere limitate quando le autorizzazioni sono disabilitate
+
+Richiediamo solo le autorizzazioni necessarie per la funzionalita principale dell'app o per le funzionalita opzionali che scegliete di utilizzare. Non accediamo a nessun dato oltre a quanto necessario per gli scopi dichiarati.
+
+================================================================================
 3. COME RACCOGLIAMO LE INFORMAZIONI
 ================================================================================
 
