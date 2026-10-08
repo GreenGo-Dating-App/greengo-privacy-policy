@@ -4,7 +4,7 @@ Official Privacy Policy documents for GreenGo Chat application.
 
 ## Overview
 
-This repository contains the privacy policy for GreenGo Chat, a dating application operated by **Universo Kardasha Ltda.**, based in Sao Paulo, Brazil.
+This repository contains the privacy policy for GreenGo Chat, a cross-cultural discovery and social networking application operated by **Universo Kardasha Ltda.**, based in Sao Paulo, Brazil.
 
 ## Compliance
 
@@ -43,7 +43,7 @@ The privacy policy is compliant with:
 - **DPO Email**: privacy@greengochat.com
 - **Support Email**: support@greengochat.com
 - **Phone**: +55 11 911142911
-- **EU Representative**: eu-representative@greengochat.com
+- **EU / UK Representatives**: to be appointed (GDPR art. 27)
 
 ## Key Sections Covered
 
@@ -64,6 +64,8 @@ The privacy policy is compliant with:
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 5.0.0 | [effective date] | DRAFT (branch compliance/p2-draft): full rewrite against the data map, pending counsel review |
+| 4.0.0 | September 15, 2026 | Age verification, deletion cascade, coin expiry removal |
 | 1.0.0 | January 26, 2026 | Initial comprehensive release |
 
 ## Usage
