@@ -8,7 +8,7 @@ This repository contains the privacy policy for GreenGo Chat, a cross-cultural d
 
 ## Compliance
 
-The privacy policy is compliant with:
+The privacy policy is written to meet the requirements of:
 
 - **LGPD** - Brazilian General Data Protection Law (Lei Geral de Protecao de Dados, Lei n. 13.709/2018)
 - **GDPR** - European Union General Data Protection Regulation (Regulation 2016/679)
@@ -33,14 +33,13 @@ The privacy policy is compliant with:
 
 ## Legal Precedence
 
-- For users in **Brazil**: The Portuguese (Brazil) version (`privacy-policy-pt_BR.txt`) shall prevail in case of any discrepancy between translations.
-- For users in **other jurisdictions**: The English version (`privacy-policy-en.txt`) shall prevail.
+- Where the law requires it, the version in the official language of the user's country of residence prevails (for users in Brazil: Portuguese (Brazil)).
+- Otherwise the English version prevails.
 
 ## Contact Information
 
-- **Data Controller**: Universo Kardasha Ltda.
-- **Location**: Sao Paulo, SP, Brazil
-- **DPO Email**: privacy@greengochat.com
+- **Data Controller**: Universo Kardasha Ltda., CNPJ 40.486.663/0001-82, Av. Dona Helena Pereira de Moraes, 290, Sao Paulo - SP, 05707-400, Brazil
+- **Encarregado / DPO**: GreenGo Privacy Team, privacy@greengochat.com
 - **Support Email**: support@greengochat.com
 - **Phone**: +55 11 911142911
 - **EU / UK Representatives**: to be appointed (GDPR art. 27)
@@ -64,7 +63,7 @@ The privacy policy is compliant with:
 
 | Version | Date | Description |
 |---------|------|-------------|
-| 5.0.0 | [effective date] | DRAFT (branch compliance/p2-draft): full rewrite against the data map, pending counsel review |
+| 5.0.0 | October 9, 2026 | Full rewrite against the data map: one controller, processors list, AI section, retention table, tickets and sharing with organizers, website tracker-free |
 | 4.0.0 | September 15, 2026 | Age verification, deletion cascade, coin expiry removal |
 | 1.0.0 | January 26, 2026 | Initial comprehensive release |
 
