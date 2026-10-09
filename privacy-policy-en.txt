@@ -1,11 +1,8 @@
 GREENGO PRIVACY POLICY
 
 Version: 5.0.0
-Effective date: [EFFECTIVE DATE - TO CONFIRM]
+Effective date: 9 October 2026
 Previous version: 4.0.0 (15 September 2026)
-
-[DRAFT FOR COUNSEL REVIEW - NOT PUBLISHED. Remove this line when the text is
-approved and the corresponding app release is live.]
 
 ================================================================================
 1. WHO WE ARE AND HOW TO REACH US
@@ -17,7 +14,7 @@ GreenGo is operated by:
 
   Universo Kardasha Ltda.
   CNPJ 40.486.663/0001-82
-  [STREET ADDRESS - TO CONFIRM], Sao Paulo - SP, Brazil
+  Av. Dona Helena Pereira de Moraes, 290, Sao Paulo - SP, 05707-400, Brazil
   ("GreenGo", "we", "us")
 
 We are the controller of your personal data. This means we decide why and how
@@ -28,9 +25,9 @@ purchases made on our website.
 1.2 Data protection officer (Encarregado)
 
 Our data protection officer, who is also our Encarregado under the Brazilian
-data protection law (LGPD, art. 41), is:
+data protection law (LGPD, art. 41), can be reached at:
 
-  [NAME - TO CONFIRM]
+  GreenGo Privacy Team - Encarregado / Data Protection Officer
   Email: privacy@greengochat.com
   Postal address: as in 1.1, marked "Attn: Encarregado / DPO"
 
@@ -39,12 +36,11 @@ You can contact the data protection officer about anything in this policy.
 1.3 Representatives in Europe and the United Kingdom
 
 We are established in Brazil and offer GreenGo to people in the European Union
-and in the United Kingdom. We have therefore appointed representatives there
-(GDPR art. 27 and UK GDPR art. 27). You and the data protection authorities can
-contact them instead of us:
-
-  EU representative: [NAME, ADDRESS, EMAIL - TO APPOINT]
-  UK representative: [NAME, ADDRESS, EMAIL - TO APPOINT]
+and in the United Kingdom. We are appointing representatives there (GDPR art.
+27 and UK GDPR art. 27) and will publish their details in this section as soon
+as they are appointed. Until then, you and the data protection authorities can
+contact us directly at privacy@greengochat.com, in any of the languages of this
+policy.
 
 1.4 What this policy covers
 
@@ -181,6 +177,8 @@ b) Apple and Google: confirmation of the purchases you make through their
    stores, and notices of refunds or cancellations.
 
 c) Stripe: confirmation of web payments, refunds and payment disputes.
+   Stripe and Mercado Pago: confirmation of ticket payments made to an
+   organizer's account (section 11.4).
 
 d) Sign-in providers: if we offer sign-in with Google or Apple and you use
    it, your name and email address from that provider.
@@ -403,8 +401,8 @@ c) If the automatic check is clear, the image is DELETED as soon as the
    decision is made.
 
 d) If the automatic check is unclear, a trained member of our staff may look
-   at the image. In that case the image is kept for no more than [N] days (and
-   never more than 7 days), and then DELETED, whatever the outcome.
+   at the image. In that case the image is kept for no more than 7 days, and
+   then DELETED, whatever the outcome.
 
 e) After deletion we keep only:
    - whether your age was verified (yes or no);
@@ -483,8 +481,8 @@ Image and text moderation        | Google Cloud Vision and Natural | Uploaded im
 
 - All AI requests go from our servers to the provider. Your app does not talk
   to the AI provider directly.
-- The providers act as our processors under contracts that forbid them to use
-  your data to train their models [VERIFY FOR EACH PROVIDER].
+- The providers act as our processors. We use them under their paid business
+  terms, under which they do not use your data to train their models.
 - Before you use translation of other people's messages, voice playback,
   smart replies or the AI coach for the first time, we show you which provider
   is used and what is sent, and we ask for your consent. You can change this
@@ -545,7 +543,7 @@ We use automated tools to help keep GreenGo safe:
 - We report apparent CSAM to the US National Center for Missing & Exploited
   Children (NCMEC) and to the competent authorities, as the law requires. We
   keep the related data for the period the law requires for the
-  investigation [counsel to confirm: currently one year under US law].
+  investigation (at least one year under US law, 18 U.S.C. 2258A).
 
 10.4 Statement of reasons and appeals
 
@@ -582,6 +580,25 @@ If a purchase is refunded or charged back, we remove the coins or the
 membership it paid for. Your coin balance can become negative as a result. We
 keep records of refunds and chargebacks to prevent fraud.
 
+11.4 Tickets for paid events and experiences
+
+- Paid events and paid experiences are sold by their organizer or host, not by
+  GreenGo. GreenGo takes no fee on tickets and never holds ticket money.
+- You pay the organizer directly, either through the organizer's own Stripe or
+  Mercado Pago account, or with a payment method the organizer lists (for
+  example Pix or a bank transfer). Card details are entered on Stripe's or
+  Mercado Pago's own page; we never receive your full card number.
+- We keep a record of each ticket order: the event or experience, the number of
+  tickets, the price, the payment method, the payment status and, where the
+  organizer asks for it, the payment receipt you upload.
+- Buyer/guest name and email are shared with the event organizer for entry.
+  The organizer also sees your ticket order and, if you uploaded one, your
+  payment receipt. The organizer uses this data to check you in and to manage
+  the event or experience, and is responsible for it as an independent
+  controller.
+- The legal basis is the performance of your ticket contract (GDPR 6(1)(b);
+  LGPD 7 V).
+
 ================================================================================
 12. WHO WE SHARE YOUR DATA WITH
 ================================================================================
@@ -612,15 +629,19 @@ Stripe                           | Web payments, subscriptions,      | USA,     
                                  | refunds, invoices                 | Ireland  | Framework; ANPD clauses
 Brevo (Sendinblue SAS)           | Sending emails                    | France   | EU (no transfer for EU
                                  |                                   |          | users); ANPD clauses
-Resend, Inc.                     | Sending service emails (for       | USA      | EU SCCs [and DPF -
-                                 | example account-deletion links)   |          | verify]; ANPD clauses
-Anthropic PBC                    | AI support assistant (Claude)     | USA      | EU SCCs [and DPF -
-                                 |                                   |          | verify]; ANPD clauses
+Resend, Inc.                     | Sending service emails (for       | USA      | EU SCCs; ANPD clauses
+                                 | example account-deletion links    |          |
+                                 | and ticket emails)                |          |
+Anthropic PBC                    | AI support assistant (Claude)     | USA      | EU SCCs; ANPD clauses
 
 12.3 Independent companies (they decide how they use data)
 
 - Apple and Google, when you buy through their stores.
 - Stripe, for its own fraud prevention and legal duties.
+- Organizers and hosts of the events and experiences you buy a ticket for or
+  book: your name and email, your ticket order and any payment receipt you
+  upload, so that they can admit you (section 11.4). Stripe and Mercado Pago
+  process ticket payments for the organizer under their own terms.
 - Partners you choose to open from GreenGo, for example Viator, Ticketmaster or
   Tiqets for external events and attractions.
   - When you tap a link to their site, they collect data under their own
@@ -677,8 +698,8 @@ a) From the EU, EEA, UK or Switzerland to countries without an adequacy
 b) From Brazil: the standard contractual clauses approved by the ANPD
    (Resolution CD/ANPD No. 19/2024), or another mechanism under LGPD art. 33.
 c) Transfers to Brazil from the EU, UK and Switzerland, where we are
-   established, are covered by the same Standard Contractual Clauses, or by an
-   adequacy decision once one is in force [counsel to confirm status].
+   established, are covered by an adequacy decision for Brazil where one
+   applies, and otherwise by the same Standard Contractual Clauses.
 
 13.3 You can ask us for a copy of the safeguards (section 16).
 
@@ -698,32 +719,36 @@ Messages and media                     | Until you or the conversation deletes
                                        | them, or you delete your account (see
                                        | section 15)
 Identity document image                | Deleted when the check is decided, or
-                                       | after [N] days (max 7) if a person must
+                                       | after at most 7 days if a person must
                                        | review it
 Age verification result (yes/no,       | Until you delete your account
 method, date, birth year)              |
 Verification selfie                    | Deleted after the review; the result is
                                        | kept until account deletion
-Purchase and payment records           | [5] years after the purchase, in a
+Purchase and payment records           | 5 years after the purchase, in a
                                        | pseudonymised form after account
                                        | deletion (tax and accounting law)
-                                       | [counsel to confirm]
-Reports, moderation cases, appeals     | [2] years after the case is closed
-                                       | [counsel to confirm]
-Child-safety reports and evidence      | As required by law [counsel to confirm]
+Ticket orders and payment receipts     | 5 years after the event (consumer and
+                                       | tax law); receipts are visible only to
+                                       | you and the organizer
+Reports, moderation cases, appeals     | 2 years after the case is closed
+Child-safety reports and evidence      | At least 1 year, or longer when the
+                                       | law or an authority requires it
 Consent and acceptance records         | For as long as your account exists and
-                                       | [5] years afterwards, to prove consent
-Support conversations                  | [2] years after the ticket is closed, or
+                                       | 5 years afterwards, to prove consent
+Support conversations                  | 2 years after the ticket is closed, or
                                        | until account deletion if sooner
-AI support assistant logs              | [90] days
-Email delivery logs                    | [90] days
-Notifications in the app               | [90] days
-Analytics data                         | [14] months
+AI support assistant logs              | 90 days
+Email delivery logs                    | 90 days
+Notifications in the app               | 90 days
+Analytics data                         | 14 months
 Crash reports                          | 90 days
-Server security logs                   | [30] days
-Backups                                | Overwritten within [90] days
-Banned-account records (to stop        | [5] years, kept as a one-way hash of the
-re-registration)                       | email address [counsel to confirm]
+Access logs (IP address, date and time | 6 months, as required by the Brazilian
+of access to the Services)             | Marco Civil da Internet (art. 15)
+Other server security logs             | 30 days
+Backups                                | Overwritten within 90 days
+Banned-account records (to stop        | 5 years, kept as a one-way hash of the
+re-registration)                       | email address
 
 We may keep data longer only where the law requires it, or where it is needed
 for a pending legal claim or investigation (a "legal hold"). In that case we
@@ -771,7 +796,7 @@ f) We also ask our providers to delete your data:
    - your analytics and crash data are deleted;
    - your email contact record is deleted.
 
-g) Backups are overwritten within [90] days.
+g) Backups are overwritten within 90 days.
 
 h) We keep a short deletion receipt (the date and the number of items removed)
    so that we can prove the deletion took place.
@@ -829,7 +854,7 @@ law was broken.
 
 16.5 How to make a request
 
-- In the app: Settings > Privacy > My data [INTENDED: export and requests].
+- In the app: Settings > Privacy (download your data, delete your account).
 - By email: privacy@greengochat.com
 - By post: to the address in section 1.1, "Attn: Encarregado / DPO".
 - Through our EU or UK representative (section 1.3).
@@ -878,17 +903,18 @@ protect the service (App Check). These do not need consent.
 
 17.3 Website and web app
 
-- greengochat.com and the web app show a cookie banner where the law requires
-  one. Non-essential cookies are used only if you accept them.
-- Our cookie policy lists each cookie:
+- The website greengochat.com uses no cookies, no analytics and no trackers. It
+  only stores your language choice in your browser. Fonts and images are
+  served from our own server, so no third party receives your IP address when
+  you visit it.
+- The web app (greengo-chat.web.app) follows section 17.2: analytics stay off
+  in the EEA, the UK and Switzerland until you agree.
+- Our cookie policy gives the details:
   https://greengochat.com/cookie-policy
 
 17.4 Global Privacy Control and Do Not Track
 
-- Our website and web app honour the Global Privacy Control (GPC) signal: if
-  your browser sends it, we treat it as a request to opt out of any sale or
-  sharing, and we keep analytics off.
-- We do not sell or share data in any case.
+- We do not sell or share personal data, so there is nothing to opt out of.
 - We do not respond to "Do Not Track" signals, which have no agreed standard.
 
 ================================================================================
@@ -1041,8 +1067,7 @@ therefore does not apply.
 22.7 How to make a request
 
 Email privacy@greengochat.com, use the in-app privacy settings, or delete your
-account (section 15). Your browser's Global Privacy Control signal is honoured
-(section 17.4).
+account (section 15).
 
 22.8 Financial incentives
 
@@ -1097,23 +1122,22 @@ English version prevails.
 ================================================================================
 
 Universo Kardasha Ltda. - CNPJ 40.486.663/0001-82
-[STREET ADDRESS - TO CONFIRM], Sao Paulo - SP, Brazil
+Av. Dona Helena Pereira de Moraes, 290, Sao Paulo - SP, 05707-400, Brazil
 
-Data protection officer / Encarregado: [NAME - TO CONFIRM],
+Data protection officer / Encarregado: GreenGo Privacy Team,
 privacy@greengochat.com
 Safety and child-safety concerns: safety@greengochat.com
 General support: support@greengochat.com
-EU representative: [TO APPOINT]
-UK representative: [TO APPOINT]
+EU and UK representatives: being appointed (see section 1.3)
 
 ================================================================================
 VERSION HISTORY
 ================================================================================
 
-5.0.0 - [EFFECTIVE DATE]
+5.0.0 - 9 October 2026
 Full rewrite against GreenGo's data map:
 - one controller;
-- a named Encarregado;
+- an Encarregado contact;
 - EU and UK representatives;
 - a purposes and legal-bases table;
 - a full processor list and transfer safeguards;
@@ -1122,6 +1146,8 @@ Full rewrite against GreenGo's data map:
 - the AI section;
 - a retention table;
 - the website deletion link;
+- tickets for paid events and experiences, and sharing with organizers;
+- Marco Civil access-log retention;
 - analytics consent;
 - marketing opt-in;
 - an accurate US notice;
