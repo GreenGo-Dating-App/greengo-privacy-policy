@@ -1,8 +1,8 @@
 DATENSCHUTZERKLÄRUNG VON GREENGO
 
-Version: 5.0.0
-Gültig ab: 9. Oktober 2026
-Vorherige Version: 4.0.0 (15. September 2026)
+Version: 5.1.0
+Gültig ab: 11. Oktober 2026
+Vorherige Version: 5.0.0 (9. Oktober 2026)
 
 ================================================================================
 1. WER WIR SIND UND WIE DU UNS ERREICHST
@@ -74,7 +74,7 @@ Suche nach romantischen oder sexuellen Partnern.
 - Andere Nutzer sehen dein öffentliches Profil: deine Fotos, deinen Namen oder
   Spitznamen, dein Alter und einen UNGEFÄHREN Standort, der nur auf etwa 1,5 km
   genau ist. Sie sehen niemals deinen genauen Standort, dein Geburtsdatum, deine
-  sexuelle Orientierung, deine Telefonnummer oder deine E-Mail-Adresse.
+  Telefonnummer oder deine E-Mail-Adresse.
 - Wir verkaufen deine personenbezogenen Daten NICHT. Wir verwenden sie NICHT für
   Werbung Dritter. In GreenGo gibt es keine Werbung.
 - Deine Nachrichten werden bei der Übertragung und im Ruhezustand verschlüsselt,
@@ -114,8 +114,7 @@ b) Profildaten
      Persönlichkeitsmerkmale, Herkunftsland oder -kultur, Links zu deinen
      Social-Media-Konten und Links zu externen Zahlungsdiensten (zum Beispiel
      ein Pix-Schlüssel oder ein PayPal.me-Link).
-   - Optional: deine sexuelle Orientierung. Diese ist privat und wird anderen
-     Nutzern nie angezeigt. Siehe 3.4.
+   - Wir fragen nicht nach deiner sexuellen Orientierung (siehe 3.4).
    - Deine Datenschutzeinstellungen, zum Beispiel Inkognito-Modus, Geistermodus
      und ob du auf der Karte erscheinst.
 
@@ -197,10 +196,10 @@ d) Anmeldeanbieter: Wenn wir die Anmeldung mit Google oder Apple anbieten und
 Manche Daten sind nach dem Gesetz „sensibel“ (besondere Kategorien). Wir
 erheben sie nur in diesen Fällen:
 
-- Sexuelle Orientierung: nur wenn du sie freiwillig in dein Profil einträgst.
-  Die Angabe ist optional und privat. Sie wird anderen Nutzern nie angezeigt
-  und nie für Werbung verwendet. Rechtsgrundlage ist deine ausdrückliche
-  Einwilligung, die du widerrufen kannst, indem du das Feld entfernst.
+- Sexuelle Orientierung: Wir erheben sie NICHT. Frühere Versionen der App
+  hatten dafür ein optionales, privates Feld. Dieses Feld wurde entfernt; ein
+  früher gespeicherter Wert wurde anderen Nutzern nie angezeigt und wird
+  gelöscht.
 
 - Ausweisdokument und Selfie: nur wenn du dich für eine Verifizierung
   entscheidest oder sie in den in Abschnitt 8 beschriebenen Fällen nötig ist.
@@ -240,8 +239,8 @@ Personen, die du blockiert hast, können dein Profil nicht sehen.
 
 4.2 Wird anderen Nutzern nie angezeigt
 
-Dein genauer Standort, dein Geburtsdatum, deine sexuelle Orientierung, deine
-E-Mail-Adresse, deine Telefonnummer, dein Ausweisdokument, dein
+Dein genauer Standort, dein Geburtsdatum, deine E-Mail-Adresse, deine
+Telefonnummer, dein Ausweisdokument, dein
 Verifizierungs-Selfie und die Fotos in deinem privaten Album (es sei denn, du
 gewährst jemandem Zugriff auf dein privates Album).
 
@@ -297,37 +296,38 @@ Zweck                                | Was wir verwenden          | Rechtsgrundl
    Ausweisdokument                   | gelesenes Geburtsdatum     | 9(2)(a); LGPD 11 I). Siehe Abschnitt 8.
 7. Selfie-Verifizierung              | Selfie, Profilfotos        | Ausdrückliche Einwilligung (DSGVO
                                      |                            | 9(2)(a); LGPD 11 I)
-8. Sexuelle Orientierung in deinem   | Das Feld, das du ausfüllst | Ausdrückliche Einwilligung (DSGVO
-   Profil                            |                            | 9(2)(a); LGPD 11 I)
-9. Käufe, Münzen, Mitgliedschaften,  | Kaufdaten, Münzbuch        | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
+8. Käufe, Münzen, Mitgliedschaften,  | Kaufdaten, Münzbuch        | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
    Erstattungen                      |                            |
-10. Steuer- und Buchhaltungs-        | Kaufdaten (Minimum)        | Rechtliche Verpflichtung (DSGVO
+9.  Steuer- und Buchhaltungs-        | Kaufdaten (Minimum)        | Rechtliche Verpflichtung (DSGVO
     unterlagen führen                |                            | 6(1)(c); LGPD 7 II)
-11. Sicherheit: Moderation,          | Inhalte, Meldungen, Konto- | Rechtliche Verpflichtung, soweit das
+10. Sicherheit: Moderation,          | Inhalte, Meldungen, Konto- | Rechtliche Verpflichtung, soweit das
     Meldungen, Beschwerden,          | und Gerätedaten, Kaufdaten | Gesetz es verlangt (zum Beispiel der
     Blockieren, Betrugs- und         |                            | EU Digital Services Act); ansonsten
     Missbrauchsprävention, Prüfung   |                            | berechtigte Interessen an einem
     von Erstattungen und             |                            | sicheren, betrugsfreien Dienst (DSGVO
     Rückbuchungen                    |                            | 6(1)(c)/(f); LGPD 7 II/IX)
-12. Material über sexuelle Ausbeutung| Inhalte, Kontodaten        | Rechtliche Verpflichtung (DSGVO
+11. Material über sexuelle Ausbeutung| Inhalte, Kontodaten        | Rechtliche Verpflichtung (DSGVO
     von Kindern an die Behörden      |                            | 6(1)(c); LGPD 7 II) und
     melden                           |                            | lebenswichtige Interessen
-13. Kundensupport, einschließlich    | Support-Nachrichten        | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
+12. Kundensupport, einschließlich    | Support-Nachrichten        | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
     des KI-Support-Assistenten       |                            |
-14. Servicenachrichten (Sicherheit,  | E-Mail, Push-Token         | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
+13. Servicenachrichten (Sicherheit,  | E-Mail, Push-Token         | Vertrag (DSGVO 6(1)(b); LGPD 7 V)
     Käufe, Richtlinienänderungen)    |                            |
-15. Marketing-E-Mails und Marketing- | E-Mail, Push-Token,        | Einwilligung, die du jederzeit
+14. Marketing-E-Mails und Marketing- | E-Mail, Push-Token,        | Einwilligung, die du jederzeit
     Push-Benachrichtigungen          | Präferenzen                | widerrufen kannst (DSGVO 6(1)(a);
                                      |                            | ePrivacy Art. 13; LGPD 7 I)
-16. Analysen und Absturzberichte     | Nutzungs- und Gerätedaten  | EWR/UK/Schweiz: Einwilligung (DSGVO
+15. Analysen und Absturzberichte     | Nutzungs- und Gerätedaten  | EWR/UK/Schweiz: Einwilligung (DSGVO
                                      |                            | 6(1)(a); ePrivacy 5(3)). Anderswo:
                                      |                            | berechtigte Interessen an der
                                      |                            | Verbesserung der Dienste (DSGVO
                                      |                            | 6(1)(f); LGPD 7 IX)
-17. Deine Einwilligungen und die     | Einwilligungsnachweise     | Rechtliche Verpflichtung (DSGVO 7(1);
-    Annahme unserer Bedingungen      |                            | LGPD 8 Abs. 2)
-    nachweisen                       |                            |
-18. Rechtsansprüche, Anfragen von    | Soweit erforderlich        | Berechtigte Interessen / Ausübung von
+16. Deine Einwilligungen, die        | Einwilligungsnachweise,    | Rechtliche Verpflichtung (DSGVO 7(1);
+    Annahme unserer Bedingungen und  | Bestätigungen des          | LGPD 8 Abs. 2); berechtigte
+    deine Bestätigung des Warn-      | Warnhinweises              | Interessen am Schutz der Nutzer
+    hinweises zu privaten Inhalten   |                            | und am Nachweis, dass die Regeln
+    (10.5) nachweisen                |                            | bekannt waren (DSGVO 6(1)(f);
+                                     |                            | LGPD 7 IX)
+17. Rechtsansprüche, Anfragen von    | Soweit erforderlich        | Berechtigte Interessen / Ausübung von
     Behörden                         |                            | Rechten (DSGVO 6(1)(c)/(f), 9(2)(f);
                                      |                            | LGPD 7 II/VI, 11 II(d))
 
@@ -603,6 +603,21 @@ Wir nutzen automatisierte Werkzeuge, um GreenGo sicher zu halten:
   Beschwerde.
 - Weitere Einzelheiten findest du in unseren Allgemeinen Geschäftsbedingungen.
 
+10.5 Private Fotos und Chat-Medien: Warnhinweis und Nachweis
+
+- Es ist verboten, private Fotos, Inhalte privater Alben, Chat-Medien oder
+  personenbezogene Daten anderer Nutzer ohne deren Einwilligung zu kopieren
+  oder zu teilen (Allgemeine Geschäftsbedingungen, Abschnitt 16.9).
+- Wenn du solche Inhalte zum ersten Mal öffnest, zeigt die App einen
+  Warnhinweis, den du bestätigen musst („Verstanden“). Wir speichern deine
+  Konto-ID, Datum und Uhrzeit sowie die Version der Bedingungen, die du
+  bestätigt hast. Wir verwenden diesen Nachweis nur, um zu belegen, dass du
+  informiert wurdest, zum Beispiel in einem Moderationsfall, einer Beschwerde
+  oder bei einer Anfrage der Polizei oder eines Gerichts.
+- Rechtsgrundlage ist unser berechtigtes Interesse und das der Personen, deren
+  Inhalte du siehst, Missbrauch zu verhindern und nachzuweisen (DSGVO 6(1)(f);
+  LGPD 7 IX). Wir bewahren den Nachweis wie in Abschnitt 14 beschrieben auf.
+
 ================================================================================
 11. ZAHLUNGEN, MÜNZEN UND MITGLIEDSCHAFTEN
 ================================================================================
@@ -797,8 +812,9 @@ Meldungen, Moderationsfälle,           | 2 Jahre nach Abschluss des Falls
 Beschwerden                            |
 Meldungen und Beweise zum Kinderschutz | Mindestens 1 Jahr oder länger, wenn das
                                        | Gesetz oder eine Behörde es verlangt
-Einwilligungs- und Annahmenachweise    | Solange dein Konto besteht und 5 Jahre
-                                       | danach, um die Einwilligung zu belegen
+Einwilligungs- und Annahmenachweise,   | Solange dein Konto besteht und 5 Jahre
+einschließlich bestätigter Warnhinweise| danach, um die Einwilligung und die
+zu privaten Inhalten (10.5)            | Kenntnis zu belegen
 Support-Gespräche                      | 2 Jahre nach Schließung des Tickets
                                        | oder bis zur Kontolöschung, falls diese
                                        | früher erfolgt
@@ -1107,8 +1123,7 @@ Kategorie (Cal. Civ. Code 1798.140)    | Erhoben   | Offengelegt für einen| Ver
 Identifikatoren (Name, E-Mail,         | Ja        | Dienstleister        | Nein
 Konto-ID, IP-Adresse)                  |           |                      |
 Kundendatensätze (1798.80)             | Ja        | Dienstleister        | Nein
-Geschützte Merkmale (Alter, Geschlecht,| Ja        | Dienstleister        | Nein
-sexuelle Orientierung, falls angegeben)|           |                      |
+Geschützte Merkmale (Alter, Geschlecht)| Ja        | Dienstleister        | Nein
 Kommerzielle Informationen (Käufe)     | Ja        | Dienstleister,       | Nein
                                        |           | App-Stores           |
 Biometrische Informationen             | Nein      | -                    | Nein
@@ -1124,8 +1139,7 @@ Sensible personenbezogene              | Ja        | Dienstleister        | Nein
 Informationen (genaue                  |           |                      |
 Geolokalisierung, Kontoanmeldung,      |           |                      |
 amtlicher Ausweis bei der              |           |                      |
-Verifizierung, sexuelle Orientierung,  |           |                      |
-falls angegeben)                       |           |                      |
+Verifizierung)                         |           |                      |
 
 22.2 Quellen
 
@@ -1238,6 +1252,12 @@ Vertreter in der EU und im Vereinigten Königreich: werden derzeit benannt
 ================================================================================
 VERSIONSVERLAUF
 ================================================================================
+
+5.1.0 - 11. Oktober 2026
+- Die sexuelle Orientierung wird nicht mehr erhoben (Abschnitte 2, 3.1, 3.4,
+  4.2, 5, 22).
+- Neuer Abschnitt 10.5: der Warnhinweis zu privaten Inhalten und der Nachweis
+  deiner Bestätigung (auch Abschnitte 5 und 14).
 
 5.0.0 - 9. Oktober 2026
 Vollständige Neufassung auf Grundlage der Datenlandkarte von GreenGo:

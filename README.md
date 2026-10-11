@@ -63,6 +63,7 @@ The privacy policy is written to meet the requirements of:
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 5.1.0 | October 11, 2026 | Sexual orientation no longer collected; private-content warning confirmation recorded (section 10.5) |
 | 5.0.0 | October 9, 2026 | Full rewrite against the data map: one controller, processors list, AI section, retention table, tickets and sharing with organizers, website tracker-free |
 | 4.0.0 | September 15, 2026 | Age verification, deletion cascade, coin expiry removal |
 | 1.0.0 | January 26, 2026 | Initial comprehensive release |

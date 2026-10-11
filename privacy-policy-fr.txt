@@ -1,8 +1,8 @@
 POLITIQUE DE CONFIDENTIALITÉ DE GREENGO
 
-Version : 5.0.0
-Date d'entrée en vigueur : 9 octobre 2026
-Version précédente : 4.0.0 (15 septembre 2026)
+Version : 5.1.0
+Date d'entrée en vigueur : 11 octobre 2026
+Version précédente : 5.0.0 (9 octobre 2026)
 
 ================================================================================
 1. QUI NOUS SOMMES ET COMMENT NOUS CONTACTER
@@ -77,8 +77,7 @@ de recherche de partenaires amoureux ou sexuels.
 - Les autres utilisateurs voient votre profil public : vos photos, votre nom ou
   pseudonyme, votre âge et une localisation APPROXIMATIVE, précise seulement à
   environ 1,5 km. Ils ne voient jamais votre localisation exacte, votre date de
-  naissance, votre orientation sexuelle, votre numéro de téléphone ni votre
-  adresse e-mail.
+  naissance, votre numéro de téléphone ni votre adresse e-mail.
 - Nous ne VENDONS PAS vos données personnelles. Nous ne les utilisons PAS pour
   de la publicité de tiers. Il n'y a aucune publicité dans GreenGo.
 - Vos messages sont chiffrés en transit et au repos, mais ils ne sont PAS
@@ -118,8 +117,7 @@ b) Données de profil
      formation, profession, traits de personnalité, pays ou culture d'origine,
      liens vers vos comptes de réseaux sociaux et liens vers des services de
      paiement externes (par exemple une clé Pix ou un lien PayPal.me).
-   - Facultatif : votre orientation sexuelle. Cette information est privée et
-     n'est jamais montrée aux autres utilisateurs. Voir le point 3.4.
+   - Nous ne demandons pas votre orientation sexuelle (voir le point 3.4).
    - Vos choix de confidentialité, par exemple le mode incognito, le mode
      fantôme et votre apparition ou non sur la carte.
 
@@ -205,10 +203,10 @@ d) Fournisseurs de connexion : si nous proposons la connexion avec Google ou
 Certaines données sont « sensibles » (catégorie particulière) au sens de la
 loi. Nous ne les collectons que dans les cas suivants :
 
-- Orientation sexuelle : uniquement si vous choisissez de l'ajouter à votre
-  profil. Elle est facultative et privée. Elle n'est jamais montrée aux autres
-  utilisateurs ni utilisée à des fins publicitaires. La base juridique est
-  votre consentement explicite, que vous pouvez retirer en supprimant le champ.
+- Orientation sexuelle : nous ne la collectons PAS. Les versions antérieures
+  de l'application comportaient un champ facultatif et privé pour cette
+  information. Ce champ a été supprimé ; toute valeur enregistrée auparavant
+  n'a jamais été montrée aux autres utilisateurs et est supprimée.
 
 - Pièce d'identité et selfie : uniquement si vous choisissez de vous faire
   vérifier, ou si vous devez le faire dans les cas décrits à la section 8. Nous
@@ -247,8 +245,8 @@ Les personnes que vous avez bloquées ne peuvent pas voir votre profil.
 
 4.2 Jamais montré aux autres utilisateurs
 
-Votre localisation exacte, votre date de naissance, votre orientation sexuelle,
-votre adresse e-mail, votre numéro de téléphone, votre pièce d'identité, votre
+Votre localisation exacte, votre date de naissance, votre adresse e-mail,
+votre numéro de téléphone, votre pièce d'identité, votre
 selfie de vérification et les photos de votre album privé (sauf si vous
 accordez à quelqu'un l'accès à votre album privé).
 
@@ -303,13 +301,11 @@ Finalité                             | Données utilisées          | Base juri
    d'une pièce d'identité            | naissance qui y est lue    | 9(2)(a) ; LGPD 11 I). Voir section 8.
 7. Vérification par selfie           | Selfie, photos de profil   | Consentement explicite (RGPD
                                      |                            | 9(2)(a) ; LGPD 11 I)
-8. Orientation sexuelle sur votre    | Le champ que vous          | Consentement explicite (RGPD
-   profil                            | remplissez                 | 9(2)(a) ; LGPD 11 I)
-9. Achats, pièces, abonnements,      | Données d'achat, registre  | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
+8. Achats, pièces, abonnements,      | Données d'achat, registre  | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
    remboursements                    | des pièces                 |
-10. Tenir les registres fiscaux et   | Données d'achat (minimum)  | Obligation légale (RGPD 6(1)(c) ;
+9.  Tenir les registres fiscaux et   | Données d'achat (minimum)  | Obligation légale (RGPD 6(1)(c) ;
     comptables                       |                            | LGPD 7 II)
-11. Sécurité : modération,           | Contenus, signalements,    | Obligation légale lorsque la loi
+10. Sécurité : modération,           | Contenus, signalements,    | Obligation légale lorsque la loi
     signalements, recours, blocage,  | données de compte et       | l'exige (par exemple le règlement
     prévention de la fraude et des   | d'appareil, données        | européen sur les services
     abus, contrôle des               | d'achat                    | numériques) ; sinon intérêts
@@ -317,26 +313,29 @@ Finalité                             | Données utilisées          | Base juri
     rétrofacturations                |                            |
                                      |                            | fraude (RGPD 6(1)(c)/(f) ;
                                      |                            | LGPD 7 II/IX)
-12. Signaler aux autorités les       | Contenus, données de       | Obligation légale (RGPD 6(1)(c) ;
+11. Signaler aux autorités les       | Contenus, données de       | Obligation légale (RGPD 6(1)(c) ;
     contenus d'exploitation sexuelle | compte                     | LGPD 7 II) et intérêts vitaux
     d'enfants                        |                            |
-13. Assistance client, y compris     | Messages d'assistance      | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
+12. Assistance client, y compris     | Messages d'assistance      | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
     l'assistant d'assistance IA      |                            |
-14. Messages de service (sécurité,   | E-mail, jeton push         | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
+13. Messages de service (sécurité,   | E-mail, jeton push         | Contrat (RGPD 6(1)(b) ; LGPD 7 V)
     achats, modifications des        |                            |
     politiques)                      |                            |
-15. E-mails et notifications push    | E-mail, jeton push,        | Consentement, que vous pouvez retirer
+14. E-mails et notifications push    | E-mail, jeton push,        | Consentement, que vous pouvez retirer
     marketing                        | préférences                | à tout moment (RGPD 6(1)(a) ;
                                      |                            | ePrivacy art. 13 ; LGPD 7 I)
-16. Analyses et rapports de plantage | Données d'utilisation et   | EEE/Royaume-Uni/Suisse : consentement
+15. Analyses et rapports de plantage | Données d'utilisation et   | EEE/Royaume-Uni/Suisse : consentement
                                      | d'appareil                 | (RGPD 6(1)(a) ; ePrivacy 5(3)).
                                      |                            | Ailleurs : intérêts légitimes à
                                      |                            | améliorer les Services (RGPD
                                      |                            | 6(1)(f) ; LGPD 7 IX)
-17. Prouver vos consentements et     | Registres de consentement  | Obligation légale (RGPD 7(1) ;
-    votre acceptation de nos         |                            | LGPD 8 par. 2)
-    conditions                       |                            |
-18. Actions en justice, demandes des | Selon les besoins          | Intérêts légitimes / exercice de
+16. Prouver vos consentements,       | Registres de consentement, | Obligation légale (RGPD 7(1) ;
+    votre acceptation de nos         | confirmations de           | LGPD 8 par. 2) ; intérêts
+    conditions et votre confirmation | l'avertissement            | légitimes à protéger les
+    de l'avertissement relatif aux   |                            | utilisateurs et à prouver que les
+    contenus privés (10.5)           |                            | règles étaient connues (RGPD
+                                     |                            | 6(1)(f) ; LGPD 7 IX)
+17. Actions en justice, demandes des | Selon les besoins          | Intérêts légitimes / exercice de
     autorités                        |                            | droits (RGPD 6(1)(c)/(f), 9(2)(f) ;
                                      |                            | LGPD 7 II/VI, 11 II(d))
 
@@ -621,6 +620,22 @@ GreenGo :
   recours.
 - Plus de détails figurent dans nos Conditions générales.
 
+10.5 Photos privées et médias de discussion : avertissement et registre
+
+- Il est interdit de copier ou de partager les photos privées, le contenu des
+  albums privés, les médias de discussion ou les données personnelles d'autres
+  utilisateurs sans leur consentement (Conditions générales, section 16.9).
+- La première fois que vous ouvrez un tel contenu, l'application affiche un
+  avertissement que vous devez confirmer (« J'ai compris »). Nous enregistrons
+  l'identifiant de votre compte, la date et l'heure, ainsi que la version des
+  Conditions que vous avez confirmée. Nous n'utilisons ce registre que pour
+  prouver que vous avez été informé, par exemple dans un dossier de
+  modération, un recours ou une demande de la police ou d'un tribunal.
+- La base juridique est notre intérêt légitime, et celui des personnes dont
+  vous voyez le contenu, à prévenir et à prouver les utilisations abusives
+  (RGPD 6(1)(f) ; LGPD 7 IX). Nous conservons le registre comme indiqué à la
+  section 14.
+
 ================================================================================
 11. PAIEMENTS, PIÈCES ET ABONNEMENTS
 ================================================================================
@@ -832,8 +847,9 @@ recours                                |
 Signalements et preuves relatifs à la  | Au moins 1 an, ou plus lorsque la loi
 sécurité des enfants                   | ou une autorité l'exige
 Registres de consentement et           | Pendant toute l'existence de votre
-d'acceptation                          | compte et 5 ans ensuite, pour prouver
-                                       | le consentement
+d'acceptation, y compris les           | compte et 5 ans ensuite, pour prouver
+confirmations de l'avertissement       | le consentement et la connaissance des
+relatif aux contenus privés (10.5)     | règles
 Conversations avec l'assistance        | 2 ans après la clôture de la demande,
                                        | ou jusqu'à la suppression du compte si
                                        | elle intervient avant
@@ -1150,8 +1166,7 @@ de compte, adresse IP)                 |           | services             |
 Registres clients (1798.80)            | Oui       | Prestataires de      | Non
                                        |           | services             |
 Caractéristiques protégées (âge,       | Oui       | Prestataires de      | Non
-genre, orientation sexuelle si         |           | services             |
-ajoutée)                               |           |                      |
+genre)                                 |           | services             |
 Informations commerciales (achats)     | Oui       | Prestataires de      | Non
                                        |           | services, boutiques  |
                                        |           | d'applications       |
@@ -1171,8 +1186,7 @@ Informations personnelles sensibles    | Oui       | Prestataires de      | Non
 (géolocalisation précise, identifiants |           | services             |
 de connexion au compte, pièce          |           |                      |
 d'identité officielle lors de la       |           |                      |
-vérification, orientation sexuelle si  |           |                      |
-ajoutée)                               |           |                      |
+vérification)                          |           |                      |
 
 22.2 Sources
 
@@ -1287,6 +1301,12 @@ point 1.3)
 ================================================================================
 HISTORIQUE DES VERSIONS
 ================================================================================
+
+5.1.0 - 11 octobre 2026
+- L'orientation sexuelle n'est plus collectée (sections 2, 3.1, 3.4, 4.2, 5,
+  22).
+- Nouveau point 10.5 : l'avertissement relatif aux contenus privés et le
+  registre de votre confirmation (également sections 5 et 14).
 
 5.0.0 - 9 octobre 2026
 Refonte complète sur la base de la cartographie des données de GreenGo :

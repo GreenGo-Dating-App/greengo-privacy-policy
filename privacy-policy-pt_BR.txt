@@ -1,8 +1,8 @@
 POLÍTICA DE PRIVACIDADE DO GREENGO
 
-Versão: 5.0.0
-Data de vigência: 9 de outubro de 2026
-Versão anterior: 4.0.0 (15 de setembro de 2026)
+Versão: 5.1.0
+Data de vigência: 11 de outubro de 2026
+Versão anterior: 5.0.0 (9 de outubro de 2026)
 
 ================================================================================
 1. QUEM SOMOS E COMO FALAR CONOSCO
@@ -72,7 +72,7 @@ encontrar parceiros românticos ou sexuais.
 - Outros usuários veem o seu perfil público: suas fotos, seu nome ou apelido,
   sua idade e uma localização APROXIMADA, com precisão de apenas cerca de
   1,5 km. Eles nunca veem a sua localização exata, data de nascimento,
-  orientação sexual, número de telefone ou endereço de e-mail.
+  número de telefone ou endereço de e-mail.
 - NÃO vendemos os seus dados pessoais. NÃO os usamos para publicidade de
   terceiros. Não há anúncios no GreenGo.
 - As suas mensagens são criptografadas em trânsito e em repouso, mas NÃO têm
@@ -113,8 +113,7 @@ b) Dados do perfil
      profissão, traços de personalidade, país ou cultura de origem, links para
      as suas redes sociais e links para serviços de pagamento externos (por
      exemplo, uma chave Pix ou um link PayPal.me).
-   - Opcional: a sua orientação sexual. Ela é privada e nunca é mostrada a
-     outros usuários. Veja o item 3.4.
+   - Não pedimos a sua orientação sexual (veja o item 3.4).
    - As suas escolhas de privacidade, por exemplo modo anônimo, modo fantasma e
      se você aparece no mapa.
 
@@ -196,10 +195,9 @@ d) Provedores de login: se oferecermos login com Google ou Apple e você o
 Alguns dados são "sensíveis" (categoria especial) segundo a lei. Só os coletamos
 nos seguintes casos:
 
-- Orientação sexual: somente se você optar por adicioná-la ao seu perfil. É
-  opcional e privada. Nunca é mostrada a outros usuários nem usada para
-  publicidade. A base legal é o seu consentimento explícito, que você pode
-  revogar removendo o campo.
+- Orientação sexual: NÃO a coletamos. Versões anteriores do aplicativo tinham
+  um campo opcional e privado para ela. Esse campo foi removido; qualquer valor
+  salvo anteriormente nunca foi mostrado a outros usuários e é excluído.
 
 - Documento de identidade e selfie: somente se você optar por se verificar, ou
   precisar fazê-lo nos casos descritos na seção 8. Pedimos o seu consentimento
@@ -238,10 +236,9 @@ As pessoas que você bloqueou não podem ver o seu perfil.
 
 4.2 Nunca mostrado a outros usuários
 
-A sua localização exata, data de nascimento, orientação sexual, endereço de
-e-mail, número de telefone, documento de identidade, selfie de verificação e as
-fotos do álbum privado (a menos que você dê acesso ao seu álbum privado a
-alguém).
+A sua localização exata, data de nascimento, endereço de e-mail, número de
+telefone, documento de identidade, selfie de verificação e as fotos do álbum
+privado (a menos que você dê acesso ao seu álbum privado a alguém).
 
 4.3 Conteúdo que você compartilha
 
@@ -294,40 +291,41 @@ Finalidade                          | O que usamos            | Base legal
                                     | nele                    |
 7. Verificação por selfie           | Selfie, fotos do perfil | Consentimento explícito (GDPR
                                     |                         | 9(2)(a); LGPD 11 I)
-8. Orientação sexual no seu perfil  | O campo que você        | Consentimento explícito (GDPR
-                                    | preenche                | 9(2)(a); LGPD 11 I)
-9. Compras, moedas, assinaturas,    | Dados de compras,       | Contrato (GDPR 6(1)(b); LGPD 7 V)
+8. Compras, moedas, assinaturas,    | Dados de compras,       | Contrato (GDPR 6(1)(b); LGPD 7 V)
    reembolsos                       | registro de moedas      |
-10. Manter registros fiscais e      | Dados de compras        | Obrigação legal (GDPR 6(1)(c);
+9.  Manter registros fiscais e      | Dados de compras        | Obrigação legal (GDPR 6(1)(c);
     contábeis                       | (mínimo)                | LGPD 7 II)
-11. Segurança: moderação,           | Conteúdo, denúncias,    | Obrigação legal quando a lei a
+10. Segurança: moderação,           | Conteúdo, denúncias,    | Obrigação legal quando a lei a
     denúncias, recursos, bloqueios, | dados da conta e do     | exige (por exemplo, o Regulamento
     prevenção de fraudes e abusos,  | dispositivo, dados de   | dos Serviços Digitais da UE); nos
     verificação de reembolsos e     | compras                 | demais casos, legítimo interesse
     estornos                        |                         | em um serviço seguro e livre de
                                     |                         | fraudes (GDPR 6(1)(c)/(f);
                                     |                         | LGPD 7 II/IX)
-12. Denunciar material de           | Conteúdo, dados da      | Obrigação legal (GDPR 6(1)(c);
+11. Denunciar material de           | Conteúdo, dados da      | Obrigação legal (GDPR 6(1)(c);
     exploração sexual infantil às   | conta                   | LGPD 7 II) e interesses vitais
     autoridades                     |                         |
-13. Atendimento ao cliente,         | Mensagens de suporte    | Contrato (GDPR 6(1)(b); LGPD 7 V)
+12. Atendimento ao cliente,         | Mensagens de suporte    | Contrato (GDPR 6(1)(b); LGPD 7 V)
     incluindo o assistente de       |                         |
     suporte com IA                  |                         |
-14. Mensagens de serviço            | E-mail, token push      | Contrato (GDPR 6(1)(b); LGPD 7 V)
+13. Mensagens de serviço            | E-mail, token push      | Contrato (GDPR 6(1)(b); LGPD 7 V)
     (segurança, compras, alterações |                         |
     de políticas)                   |                         |
-15. E-mails de marketing e          | E-mail, token push,     | Consentimento, que você pode
+14. E-mails de marketing e          | E-mail, token push,     | Consentimento, que você pode
     notificações push de marketing  | preferências            | revogar a qualquer momento (GDPR
                                     |                         | 6(1)(a); ePrivacy art. 13; LGPD 7 I)
-16. Análises e relatórios de falhas | Dados de uso e do       | EEE/Reino Unido/Suíça:
+15. Análises e relatórios de falhas | Dados de uso e do       | EEE/Reino Unido/Suíça:
                                     | dispositivo             | consentimento (GDPR 6(1)(a);
                                     |                         | ePrivacy 5(3)). Demais locais:
                                     |                         | legítimo interesse em melhorar os
                                     |                         | Serviços (GDPR 6(1)(f); LGPD 7 IX)
-17. Comprovar os seus               | Registros de            | Obrigação legal (GDPR 7(1);
-    consentimentos e a aceitação    | consentimento           | LGPD 8 para. 2)
-    dos nossos termos               |                         |
-18. Ações judiciais, solicitações   | Conforme necessário     | Legítimo interesse / exercício
+16. Comprovar os seus               | Registros de            | Obrigação legal (GDPR 7(1);
+    consentimentos, a aceitação     | consentimento,          | LGPD 8 para. 2); legítimo
+    dos nossos termos e a sua       | confirmações do aviso   | interesse em proteger os
+    confirmação do aviso de         |                         | usuários e comprovar que as
+    conteúdo privado (10.5)         |                         | regras eram conhecidas (GDPR
+                                    |                         | 6(1)(f); LGPD 7 IX)
+17. Ações judiciais, solicitações   | Conforme necessário     | Legítimo interesse / exercício
     de autoridades                  |                         | regular de direitos (GDPR
                                     |                         | 6(1)(c)/(f), 9(2)(f); LGPD 7 II/VI,
                                     |                         | 11 II(d))
@@ -596,6 +594,21 @@ Usamos ferramentas automatizadas para ajudar a manter o GreenGo seguro:
   participou da decisão original analisa o recurso.
 - Mais detalhes estão nos nossos Termos e Condições.
 
+10.5 Fotos privadas e mídia de chat: aviso e registro
+
+- É proibido copiar ou compartilhar fotos privadas, conteúdo do álbum privado,
+  mídia de chat ou dados pessoais de outros usuários sem o consentimento deles
+  (Termos e Condições, seção 16.9).
+- Na primeira vez que você abre esse tipo de conteúdo, o aplicativo mostra um
+  aviso que você precisa confirmar ("Entendi"). Registramos o identificador da
+  sua conta, a data e a hora e a versão dos Termos que você confirmou. Usamos
+  esse registro somente para comprovar que você foi informado, por exemplo em
+  um caso de moderação, em um recurso ou em uma solicitação da polícia ou de um
+  tribunal.
+- A base legal é o nosso legítimo interesse, e o das pessoas cujo conteúdo você
+  vê, em prevenir e comprovar o uso indevido (GDPR 6(1)(f); LGPD 7 IX).
+  Guardamos o registro conforme descrito na seção 14.
+
 ================================================================================
 11. PAGAMENTOS, MOEDAS E ASSINATURAS
 ================================================================================
@@ -793,8 +806,8 @@ recursos                            |
 Denúncias e provas relativas à      | Pelo menos 1 ano, ou mais quando a lei
 segurança de crianças               | ou uma autoridade o exigir
 Registros de consentimento e de     | Enquanto a sua conta existir e por
-aceitação                           | 5 anos depois, para comprovar o
-                                    | consentimento
+aceitação, incluindo confirmações   | 5 anos depois, para comprovar o
+do aviso de conteúdo privado (10.5) | consentimento e a ciência
 Conversas com o suporte             | 2 anos após o encerramento do
                                     | atendimento, ou até a exclusão da
                                     | conta, se ocorrer antes
@@ -1094,8 +1107,7 @@ Identificadores (nome, e-mail,       | Sim      | Prestadores de serviços  | N�
 identificador da conta, endereço IP) |          |                          |
 Registros de clientes (1798.80)      | Sim      | Prestadores de serviços  | Não
 Características protegidas (idade,   | Sim      | Prestadores de serviços  | Não
-gênero, orientação sexual, se        |          |                          |
-informada)                           |          |                          |
+gênero)                              |          |                          |
 Informações comerciais (compras)     | Sim      | Prestadores de serviços, | Não
                                      |          | lojas de aplicativos     |
 Informações biométricas              | Não      | -                        | Não
@@ -1111,8 +1123,7 @@ recomendações)                       |          |                          |
 Informações pessoais sensíveis       | Sim      | Prestadores de serviços  | Não
 (geolocalização precisa, login da    |          |                          |
 conta, documento oficial durante a   |          |                          |
-verificação, orientação sexual, se   |          |                          |
-informada)                           |          |                          |
+verificação)                         |          |                          |
 
 22.2 Fontes
 
@@ -1224,6 +1235,11 @@ Representantes na UE e no Reino Unido: em processo de nomeação (veja o item
 ================================================================================
 HISTÓRICO DE VERSÕES
 ================================================================================
+
+5.1.0 - 11 de outubro de 2026
+- A orientação sexual não é mais coletada (seções 2, 3.1, 3.4, 4.2, 5, 22).
+- Nova seção 10.5: o aviso de conteúdo privado e o registro da sua
+  confirmação (também seções 5 e 14).
 
 5.0.0 - 9 de outubro de 2026
 Reescrita completa com base no mapeamento de dados do GreenGo:
