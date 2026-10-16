@@ -63,11 +63,16 @@ The privacy policy is written to meet the requirements of:
 
 | Version | Date | Description |
 |---------|------|-------------|
+| 5.3.0 (upcoming) | Announced October 16, 2026; effective November 16, 2026 | Trader details of sellers shown on their listings (DSA art. 30, new 11.8); "Promotional use of my content" setting (new 6.4); moderation notices and appeal emails, also to suspended accounts (10.4, 18.2); anonymous read-aloud audio cache (9.2); handling of clearly unfounded reports and the 12-month count (10.2). Files in `upcoming/` |
 | 5.2.0 | October 15, 2026 | Paid tickets only through the in-app checkout (payment links, other methods, receipts and cash removed); GreenGo service fee paid by the seller and the order data processed for it (11.5); billing data of business accounts, fee invoices and NFS-e (11.6); guest booking without an account (11.7) |
 | 5.1.0 | October 11, 2026 | Sexual orientation no longer collected; private-content warning confirmation recorded (section 10.5) |
 | 5.0.0 | October 9, 2026 | Full rewrite against the data map: one controller, processors list, AI section, retention table, tickets and sharing with organizers, website tracker-free |
 | 4.0.0 | September 15, 2026 | Age verification, deletion cascade, coin expiry removal |
 | 1.0.0 | January 26, 2026 | Initial comprehensive release |
+
+## Upcoming version
+
+An announced version that is not yet in force lives in `upcoming/`, with the same file names (`upcoming/privacy-policy-<lang>.txt`). The files in the repository root remain the current version until the effective date. On the effective date (5.3.0: November 16, 2026) the `upcoming/` files are moved to the root and the folder is emptied.
 
 ## Usage
 
