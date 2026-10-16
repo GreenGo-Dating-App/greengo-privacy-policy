@@ -63,17 +63,21 @@ The privacy policy is written to meet the requirements of:
 
 | Version | Date | Description |
 |---------|------|-------------|
-| 5.3.0 (upcoming) | Announced October 16, 2026; effective November 16, 2026 | Trader details of sellers shown on their listings (DSA art. 30, new 11.8); "Promotional use of my content" setting (new 6.4); moderation notices and appeal emails, also to suspended accounts (10.4, 18.2); anonymous read-aloud audio cache (9.2); handling of clearly unfounded reports and the 12-month count (10.2); aligned with the app (AI coach, transcription, grammar help, learning features, vocabulary pictures and pronunciation practice removed; public content translated with Google Cloud Translation through a shared cache without personal data; in-app paths for deletion and privacy settings). Files in `upcoming/` |
-| 5.2.1 | October 16, 2026 | Globe Discoverability "Exact": other users see a point within about 100 m of your position and distances to the nearest 100 m (sections 2, 4.1, 4.2, 7.3); the same wording is in the upcoming 5.3.0 |
+| 5.3.0 (current) | October 16, 2026 for accounts created on or after that date; November 16, 2026 for accounts created before October 16, 2026 (announced October 16, 2026) | Trader details of sellers shown on their listings (DSA art. 30, new 11.8); "Promotional use of my content" setting (new 6.4); moderation notices and appeal emails, also to suspended accounts (10.4, 18.2); anonymous read-aloud audio cache (9.2); handling of clearly unfounded reports and the 12-month count (10.2); aligned with the app (AI coach, transcription, grammar help, learning features, vocabulary pictures and pronunciation practice removed; public content translated with Google Cloud Translation through a shared cache without personal data; in-app paths for deletion and privacy settings). |
+| 5.2.1 (previous) | October 16, 2026 | Globe Discoverability "Exact": other users see a point within about 100 m of your position and distances to the nearest 100 m (sections 2, 4.1, 4.2, 7.3); the same wording is in 5.3.0. Still applies to accounts created before October 16, 2026, until November 15, 2026; file in `previous/` |
 | 5.2.0 | October 15, 2026 | Paid tickets only through the in-app checkout (payment links, other methods, receipts and cash removed); GreenGo service fee paid by the seller and the order data processed for it (11.5); billing data of business accounts, fee invoices and NFS-e (11.6); guest booking without an account (11.7) |
 | 5.1.0 | October 11, 2026 | Sexual orientation no longer collected; private-content warning confirmation recorded (section 10.5) |
 | 5.0.0 | October 9, 2026 | Full rewrite against the data map: one controller, processors list, AI section, retention table, tickets and sharing with organizers, website tracker-free |
 | 4.0.0 | September 15, 2026 | Age verification, deletion cascade, coin expiry removal |
 | 1.0.0 | January 26, 2026 | Initial comprehensive release |
 
-## Upcoming version
+## Current and previous version
 
-An announced version that is not yet in force lives in `upcoming/`, with the same file names (`upcoming/privacy-policy-<lang>.txt`). The files in the repository root remain the current version until the effective date. On the effective date (5.3.0: November 16, 2026) the `upcoming/` files are moved to the root and the folder is emptied.
+The files in the repository root are the current version (5.3.0). Owner decision of October 16, 2026: 5.3.0 applies from October 16, 2026 to accounts created on or after that date. Accounts created before October 16, 2026 stay on 5.2.1 until November 15, 2026 (30 days' notice, Terms 24.2); from November 16, 2026 5.3.0 applies to all accounts.
+
+The version that still applies to some accounts lives in `previous/` with the same file names (`previous/privacy-policy-<lang>.txt`), with a note under the header saying to whom and until when it applies. On November 16, 2026 the `previous/` folder is deleted.
+
+An announced version that is not yet in force goes in `upcoming/` (same file names) until its effective date.
 
 ## Usage
 
@@ -88,4 +92,4 @@ Copyright 2026 Universo Kardasha Ltda. All rights reserved.
 
 ---
 
-**Last Updated**: January 26, 2026
+**Last Updated**: October 16, 2026
